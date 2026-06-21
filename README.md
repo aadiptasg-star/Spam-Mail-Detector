@@ -39,7 +39,7 @@ SMS Spam Collection Dataset from the UCI Machine Learning Repository.
 - Ham F1-Score: 0.98
 - Spam F1-Score: 0.89
 
-The Naive Bayes classifier successfully identified spam and ham messages with an overall accuracy of 97%. The model achieved perfect spam precision (1.00), meaning every message predicted as spam was actually spam.
+The Naive Bayes classifier successfully identified spam and ham messages with an overall accuracy of 97%. The model achieved perfect spam precision (1.00), meaning every message predicted as spam was actually spam. The spam recall score of 0.80 indicates that most spam messages were detected, though some spam messages were still classified as ham.
 
 
 ### Confusion Matrix
