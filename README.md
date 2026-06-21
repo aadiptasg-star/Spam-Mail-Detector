@@ -1,0 +1,64 @@
+# Spam Mail Detector
+
+![Class Distribution](images/class_distribution.png)
+
+## Project Overview
+
+This machine learning project classifies SMS messages as Spam or Ham (Not Spam) using Natural Language Processing (NLP) techniques and a Naive Bayes classifier.
+
+## Dataset
+
+SMS Spam Collection Dataset from the UCI Machine Learning Repository.
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* NLTK
+* Scikit-Learn
+
+## Workflow
+
+1. Load SMS dataset
+2. Text preprocessing
+
+   * Lowercasing
+   * Tokenization
+   * Stopword removal
+3. Feature extraction using TF-IDF
+4. Train-Test Split
+5. Naive Bayes Classification
+6. Performance Evaluation
+
+## Results
+
+The model successfully classified spam and ham messages with high accuracy.
+
+### Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+## Sample Predictions
+
+Spam Example:
+"Congratulations! You have won a free iPhone. Click now."
+
+Ham Example:
+"Mom, I will be home at 7 PM."
+
+## Skills Learned
+
+* Natural Language Processing (NLP)
+* Text Cleaning
+* Tokenization
+* Stopword Removal
+* TF-IDF Feature Extraction
+* Naive Bayes Classification
+* Model Evaluation
+
+## Author
+
+Aadipta Sengupta
